@@ -1,0 +1,8 @@
+# Results
+
+
+
+```{r lm2, eval=TRUE, echo = FALSE, tidy=FALSE}
+apa_lm <- apa_print(my_lm)
+apa_table(apa_lm$table, caption = "Regression table.")
+```

@@ -1,0 +1,13 @@
+
+<!-- Options de knitr et de R (librairies, ...) --> 
+
+```{r Options, echo=FALSE, message=FALSE, include = FALSE}
+library("papaja")
+library('ggplot2')
+library('knitr')
+library('xtable')
+
+knitr::opts_chunk$set(echo = TRUE)
+load('../../Data/df_data_survey.RData')
+
+```

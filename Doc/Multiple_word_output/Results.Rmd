@@ -1,0 +1,18 @@
+# Results
+
+
+
+```{r lm2, eval=TRUE, echo = FALSE, tidy=FALSE}
+print(my_lm)
+
+```
+
+
+```{r anova, results = "asis", echo = TRUE}
+apa_table(
+  apa_lm$table,
+  caption = "Model's results",
+  note = "This is a table created using apa\\_print() and apa\\_table().",
+  escape = FALSE
+)
+```

@@ -1,0 +1,36 @@
+---
+title: "Test_word_output"
+author: "Bob"
+date: "7 novembre 2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+
+knitr::opts_chunk$set(echo = TRUE)
+load('../../Data/df_data_survey.RData')
+```
+
+
+## Getting Started
+```{r str data, size = "scriptsize"}
+str(df_data)
+```
+
+
+## Scatter plot: Depth and Biomass
+```{r sp_base, eval=TRUE,  tidy=FALSE, opts.label='fig.medium'}
+sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
+  geom_point(size=1)
+print(sp)
+```
+
+
+## Scatter plot with color: Depth and Biomass
+```{r sp_color, eval=TRUE,  tidy=FALSE, opts.label='fig.medium'}
+sp_color <- ggplot(df_data, aes(x=Avg_net_depth, y=Biomass,
+                                color=AREA)) +
+  geom_point(size=1)
+print(sp_color)
+```

@@ -1,0 +1,15 @@
+# Materials and Methods
+## Data
+
+```{r sp_base, eval=TRUE,  tidy=FALSE, opts.label='fig.medium'}
+sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
+  geom_point(size=1)
+print(sp)
+```
+
+## Modelling approach
+Code of a linear model:
+
+```{r lm, eval=TRUE,  tidy=FALSE}
+my_lm <- lm(Biomass ~ Avg_net_depth + Avg_net_temp + Year_fac, data = df_data)
+```
