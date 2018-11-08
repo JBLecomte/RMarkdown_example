@@ -1,0 +1,11 @@
+.Rproj.user
+*.Rproj
+*.vrb
+*.aux
+*.out
+*.gz
+*.nav
+*.toc
+*.snm
+*.log
+*.pdf
