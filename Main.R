@@ -8,6 +8,7 @@ library('tidyverse')
 library('bookdown')
 library('ggplot2')
 library('kableExtra')
+library('apaTables')
 
 # Going further
 library('devtools')

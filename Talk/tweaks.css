@@ -1,0 +1,592 @@
+.left-plot {
+  width: 25%;
+  float: left;
+}
+.right-plot {
+  width: 68%;
+  float: right;
+  /* border-left: solid 1px #272822; */
+  padding-left:  1%;
+  padding-right: 5%;
+}
+
+.rlogo-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-right-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-left-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.rlogo-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/Rlogo.png);
+}
+
+.Rmarkdown-hex-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-right-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-left-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.Rmarkdown-hex-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/rmarkdown.svg);
+}
+
+.blogdown-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/blogdown.svg);
+}
+
+.blogdown-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/blogdown.svg);
+}
+
+.blogdown-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/blogdown.svg);
+}
+
+.blogdown-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/blogdown.svg);
+}
+
+.bookdown-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/bookdown.svg);
+}
+
+.bookdown-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/bookdown.svg);
+}
+
+.bookdown-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/bookdown.svg);
+}
+
+.bookdown-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/bookdown.svg);
+}
+
+.knitr-hex-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/knitr.svg);
+}
+
+.knitr-hex-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/knitr.svg);
+}
+
+.knitr-hex-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/knitr.svg);
+}
+
+.knitr-hex-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/knitr.svg);
+}
+
+.xaringan-hex-left-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/xaringan.svg);
+}
+
+.xaringan-hex-right-top {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/xaringan.svg);
+}
+
+.xaringan-hex-left-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/xaringan.svg);
+}
+
+.xaringan-hex-right-bottom {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/xaringan.svg);
+}
+
+
+/* emojis: SVGs https://github.com/twitter/twemoji/tree/gh-pages/2/svg/ */
+
+.emoji-thinking-right-bottom-S {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f914-thinking.svg);
+}
+
+.emoji-thinking-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f914-thinking.svg);
+}
+
+.emoji-crying-right-bottom-S {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f62d-crying.svg);
+}
+
+.emoji-crying-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f62d-crying.svg);
+}
+
+.emoji-exploding-head-right-bottom-S {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f92f-exploding-head.svg);
+}
+
+.emoji-exploding-head-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f92f-exploding-head.svg);
+}
+
+
+.emoji-warning-left-top-S {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-warning-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-warning-right-top-S {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-warning-right-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/26a0-warning.svg);
+}
+
+.emoji-partying-right-bottom-S {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-right-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    right:   60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-left-top-S {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-left-top-M {
+content: "";
+    position: absolute;
+    top:     40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-left-bottom-S {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 100px;
+    width:  100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
+.emoji-partying-left-bottom-M {
+content: "";
+    position: absolute;
+    bottom:  40px;
+    left:    60px;
+    height: 120px;
+    width:  120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(images/1f973-partying.svg);
+}
+
