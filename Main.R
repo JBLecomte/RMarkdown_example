@@ -3,7 +3,7 @@
 ################################################################################
 
 library('knitr')
-library('Rmarkdown')
+library('rmarkdown')
 library('tidyverse')
 library('bookdown')
 library('ggplot2')

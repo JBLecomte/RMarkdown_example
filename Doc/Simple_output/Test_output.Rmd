@@ -1,0 +1,58 @@
+---
+title: "A simple report"
+author: "Your name"
+date: "`r format(Sys.time(), '%a %d %b %Y (%H:%M:%S)')`"
+output: word_document
+---
+
+
+```{r setup, include=FALSE}
+# How to set up a document:
+# in the first chunk we load package and data for the document
+
+# load package that will be used later in the document
+library('tidyverse')
+
+# load data which are store in the Data folder a the root of the project directory
+load('../../Data/df_data_survey.RData')
+```
+
+
+# Getting Started
+The dataset used in this report is structured as:
+```{r head data}
+head(df_data, n = 5)
+```
+
+# Plot data
+## Scatter plot: Depth and Biomass
+```{r sp_base, eval = TRUE}
+sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
+  geom_point(size=1)
+print(sp)
+```
+
+The R code used to plot the data is:
+
+```{r sp_base_no_eval, eval = FALSE}
+sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
+  geom_point(size=1)
+print(sp)
+```
+
+and if we don't want to show the R code
+
+```{r sp_base_no_code, eval = TRUE, echo = FALSE}
+sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
+  geom_point(size=1)
+print(sp)
+```
+
+## Scatter plot with color: Depth and Biomass
+```{r sp_color, eval=TRUE,  tidy=FALSE, opts.label='fig.medium'}
+sp_color <- ggplot(df_data, aes(x=Avg_net_depth, y=Biomass,
+                                color=AREA)) +
+  geom_point(size=1)
+print(sp_color)
+```
+

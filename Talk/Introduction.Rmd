@@ -75,146 +75,6 @@ class: middle, center
 <!-- https://github.com/saghirb/Rmarkdown-Intro-Workshop -->
 
 ---
-class: middle, center
-
-<div class="rlogo-left-top"></div> 
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# Outline
-
-## R Markdown Examples
-
-## What is R Markdown?
-
-## HTML & PDF Documents
-
-<!-- ## Pretty Tables -->
-
-## Summary
-
----
-class: inverse
-<div class="rlogo-right-top"></div> 
-
-# Prerequisites
-
-## Latest versions of: 
-
-### &nbsp;&nbsp;&nbsp; 1. R: https://cran.r-project.org
-
-### &nbsp;&nbsp;&nbsp; 2. RStudio: https://www.rstudio.com/products/rstudio
-
----
-class: inverse, center, middle
-
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# R Markdown Examples
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# HTML "Analysis" Document
-
-```{r eg-HTML-01, echo=FALSE, out.width="80%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-01.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-<div class="blogdown-left-top"></div> 
-
-# HTML Website
-
-```{r eg-HTML-02, echo=FALSE, out.width="80%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-02.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-<div class="bookdown-left-top"></div> 
-
-# HTML Book
-
-```{r eg-HTML-03, echo=FALSE, out.width="80%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-03.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# PDF Article
-
-```{r eg-PDF-01, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-01.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-<div class="bookdown-left-top"></div> 
-
-# PDF Book
-
-```{r eg-PDF-02, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-02.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# PDF Presentation
-
-```{r eg-PDF-03, echo=FALSE, out.width="65%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-03.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div> 
-<div class="xaringan-hex-left-top"></div> 
-
-# HTML Presentation
-
-```{r eg-HTML-04, echo=FALSE, out.width="80%"}
-knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-04.png")
-```
-
----
-<div class="Rmarkdown-hex-right-top"></div> 
-
-.center[# More R Markdown]
-
-.pull-left[
-## Formats
-
-### &nbsp;&nbsp;&nbsp; - HTML
-
-### &nbsp;&nbsp;&nbsp; - PDF
-
-### &nbsp;&nbsp;&nbsp; - Word & ODF 
-
-### &nbsp;&nbsp;&nbsp; - Power Point & ODF
-]
-
-.pull-right[
-## Other
-
-### &nbsp;&nbsp;&nbsp; - Dashboards
-
-### &nbsp;&nbsp;&nbsp; - Web Applications
-
-### &nbsp;&nbsp;&nbsp; - HTML Notebooks
-
-### &nbsp;&nbsp;&nbsp; - CVs
-]
-
----
 class: inverse, center, middle
 
 <div class="Rmarkdown-hex-right-top"></div> 
@@ -422,181 +282,12 @@ with(ChickWeight, boxplot(weight ~ Time))\n```\n')
 
 ### &nbsp;&nbsp;&nbsp; - chunk options.
 ]
-
-
 ---
 class: inverse, center, middle
 
 <div class="Rmarkdown-hex-right-top"></div> 
 
-# HTML Document
-
----
-class: inverse, center, middle
-
-<div class="Rmarkdown-hex-right-top"></div> 
-
-## install.packages("kableExtra")
-
-## install.packages("rticles")
-
-## install.packages("tinytex")
-
-## tinytex::install_tinytex()
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Create a New RStudio Project
-
-.left-plot[
-```{r 01-Rmarkdown, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/01-Rmarkdown-Screens.png")
-```
-]
-.right-plot[
-```{r 02-Rmarkdown, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/02-Rmarkdown-Screens.png")
-```
-]
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Select "New Project"
-
-```{r 03-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/03-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Define Directory Location
-
-```{r 05-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/05-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# New Project Created
-
-```{r 06-Rmarkdown, echo=FALSE, out.width="47%"}
-knitr::include_graphics("images/ScreenShots/06-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Create R Markdown Document
-
-.left-plot[
-```{r 07-Rmarkdown, echo=FALSE, out.width="100%"}
-knitr::include_graphics("images/ScreenShots/07-Rmarkdown-Screens.png")
-```
-]
-.right-plot[
-```{r 08-Rmarkdown, echo=FALSE, out.width="75%"}
-knitr::include_graphics("images/ScreenShots/08-Rmarkdown-Screens.png")
-```
-]
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Untitled and Unsaved 
-
-```{r 09-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/09-Rmarkdown-Screens.PNG")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Save as .Rmd
-
-```{r 10-Rmarkdown, echo=FALSE, out.width="60%"}
-knitr::include_graphics("images/ScreenShots/10-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Click "Knit" to Create HTML File 
-
-```{r 11-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/11-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# HTML Document - Top
-
-```{r 12-Rmarkdown, echo=FALSE, out.width="60%"}
-knitr::include_graphics("images/ScreenShots/12-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# HTML Document - Bottom
-
-```{r 13-Rmarkdown, echo=FALSE, out.width="60%"}
-knitr::include_graphics("images/ScreenShots/13-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# You Can "Knit" to PDF
-
-```{r 14-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/14-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# PDF Document
-
-```{r 15-Rmarkdown, echo=FALSE, out.width="80%"}
-knitr::include_graphics("images/ScreenShots/15-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Change Theme & Style
-
-```{r 16-Rmarkdown, echo=FALSE, out.width="90%"}
-knitr::include_graphics("images/ScreenShots/16-Rmarkdown-Screens.png")
-```
-
----
-class: center
-<div class="Rmarkdown-hex-right-top"></div>
-
-# Updated Theme 
-
-```{r 17-Rmarkdown, echo=FALSE, out.width="70%"}
-knitr::include_graphics("images/ScreenShots/17-Rmarkdown-Screens.png")
-```
+# Practice !
 
 ---
 class: inverse
@@ -623,165 +314,6 @@ knitr::include_graphics("images/ScreenShots/Screenshot-Rmd-Cheatsheet.png")
 ]
 
 ---
-class: inverse, middle, center
-
-<div class="knitr-hex-right-top"></div> 
-
-# Pretty Tables
-
----
-<div class="knitr-hex-right-top"></div> 
-
-# Objective
-
-.pull-left[
-```{r dummyData, echo=FALSE}
-library(data.table)
-sData <- fread("
-Placebo, Baseline, 182, 27.4, 3.23
-Placebo, Final, 157, 25.6, 4.11
-Active, Baseline, 179, 26.7, 3.45
-Active, Final, 145, 20.7, 4.27
-", 
-col.names = c("Treatment", "Visit", "N", "Mean", "S.D.")
-)
-```
-## Before
-```{r before}
-sData
-```
-
-]
-.pull-right[
-# After
-```{r after, echo = FALSE}
-library(magrittr)
-library(knitr)
-library(kableExtra)
-sData %>% 
-  kable(align="lcrrr", digits=c(0, 0, 0, 1, 2))  %>% 
-  kable_styling(bootstrap_options="striped", font_size = 24, full_width=TRUE) %>% 
-  column_spec(1:5, width = "4em") %>% 
-  collapse_rows(1, valign = "top")
-```
-]
-
----
-<div class="knitr-hex-right-top"></div> 
-
-# Use `knitr::kable`
-
-.pull-left[
-```{r before3}
-library(magrittr) #<<
-library(knitr) #<<
-sData %>%  #<<
-  kable()  #<<
-```
-]
-.pull-right[
-```{r after3, echo = TRUE}
-library(magrittr)
-library(knitr)
-sData %>% 
- kable(align="lcrrr", digits=c(0, 0, 0, 1, 2)) #<<
-```
-]
-
----
-<div class="knitr-hex-right-top"></div> 
-
-# Use `kableExtra` Package
-
-.pull-left[
-```{r before4}
-library(magrittr)
-library(knitr)
-library(kableExtra)
-sData %>% 
- kable(align="lcrrr", digits=c(0, 0, 0, 1, 2))  %>% 
- kable_styling(bootstrap_options="striped",  #<<
-               full_width=TRUE)  #<<
-```
-]
-.pull-right[
-```{r after4}
-library(magrittr)
-library(knitr)
-library(kableExtra)
-sData %>% 
- kable(align="lcrrr", digits=c(0, 0, 0, 1, 2))  %>% 
- kable_styling(bootstrap_options="striped", 
-               full_width=TRUE) %>% 
- column_spec(1:5, width = "4em")  #<<
-```
-]
-
----
-<div class="knitr-hex-right-top"></div> 
-
-# Final Table
-
-.pull-left[
-```{r before5}
-library(magrittr)
-library(knitr)
-library(kableExtra)
-sData %>% 
- kable(align="lcrrr", digits=c(0, 0, 0, 1, 2))  %>% 
- kable_styling(bootstrap_options="striped", 
-               full_width=TRUE) %>% 
- column_spec(1:5, width = "4em") %>% 
- collapse_rows(1, valign = "top")  #<<
-```
-
-]
-.pull-right[
-## We started with
-```{r after5}
-sData 
-```
-]
-
----
-class: inverse
-
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# Exercise (i)
-
-<br> 
-
-### &nbsp;&nbsp;&nbsp; 1) Download https://ilustat.com/shared/RmarkdownWS.zip
-
-### &nbsp;&nbsp;&nbsp; 2) Unzip and double click "CW-Summary.Rproj" file.
-
-### &nbsp;&nbsp;&nbsp; 3) Create a new Rmarkdown file called "CW-Report.Rmd" 
-
-### &nbsp;&nbsp;&nbsp; 4) Recreate "CW-Report-Target.html"
-
----
-class: inverse
-
-<div class="Rmarkdown-hex-right-top"></div> 
-
-# Exercise (ii)
-
-<br> 
-
-### Creating a HTML presention
-
-
-### &nbsp;&nbsp;&nbsp; 1) Create a new "Presentation" from R Markdown.
-
-### &nbsp;&nbsp;&nbsp; 2) Select "HTML (ioslides)" style.
-
-### &nbsp;&nbsp;&nbsp; 3) Save as "CW-Slides.Rmd" 
-
-### &nbsp;&nbsp;&nbsp; 4) Recreate "CW-Slides-Target.html"
-
-
----
 class: inverse
 
 <div class="Rmarkdown-hex-right-top"></div> 
@@ -800,32 +332,125 @@ class: inverse
 
 ### &nbsp;&nbsp;&nbsp; - The rewards and benefits are big!
 
----
-class: inverse
 
-.center[
-# Feedback
-]
 
-## Please send your feedback or comments via:
-
-### &nbsp;&nbsp;&nbsp; - https://github.com/saghirb/Rmarkdown-Intro-Workshop or
-
-### &nbsp;&nbsp;&nbsp; - https://twitter.com/ilustat
-
-<br>
-
-.right[
-## Thanks!
-]
 ---
 class: inverse, center, middle
 
-## This work is based on the worksh under the
+<div class="Rmarkdown-hex-right-top"></div> 
 
-## Introduction to R Markdown - Workshop
+# R Markdown Examples
 
-## To view a copy of this license, visit
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+
+# HTML "Analysis" Document
+
+```{r eg-HTML-01, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-01.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+<div class="blogdown-left-top"></div> 
+
+# HTML Website
+
+```{r eg-HTML-02, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-02.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+<div class="bookdown-left-top"></div> 
+
+# HTML Book
+
+```{r eg-HTML-03, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-03.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+
+# PDF Article
+
+```{r eg-PDF-01, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-01.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+<div class="bookdown-left-top"></div> 
+
+# PDF Book
+
+```{r eg-PDF-02, echo=FALSE, out.width="70%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-02.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+
+# PDF Presentation
+
+```{r eg-PDF-03, echo=FALSE, out.width="65%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-PDF-Example-03.png")
+```
+
+---
+class: center
+<div class="Rmarkdown-hex-right-top"></div> 
+<div class="xaringan-hex-left-top"></div> 
+
+# HTML Presentation
+
+```{r eg-HTML-04, echo=FALSE, out.width="80%"}
+knitr::include_graphics("images/ScreenShots/Rmarkdown-HTML-Example-04.png")
+```
+
+---
+<div class="Rmarkdown-hex-right-top"></div> 
+
+.center[# More R Markdown]
+
+.pull-left[
+## Formats
+
+### &nbsp;&nbsp;&nbsp; - HTML
+
+### &nbsp;&nbsp;&nbsp; - PDF
+
+### &nbsp;&nbsp;&nbsp; - Word & ODF 
+
+### &nbsp;&nbsp;&nbsp; - Power Point & ODF
+]
+
+.pull-right[
+## Other
+
+### &nbsp;&nbsp;&nbsp; - Dashboards
+
+### &nbsp;&nbsp;&nbsp; - Web Applications
+
+### &nbsp;&nbsp;&nbsp; - HTML Notebooks
+
+### &nbsp;&nbsp;&nbsp; - CVs
+]
+
+
+---
+class: inverse, center, middle
+
+## This work is based on the workshop written by Saghir Bashir
+
+## Available at
 
 ## https://github.com/saghirb/Rmarkdown-Intro-Workshop
 
