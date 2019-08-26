@@ -2,9 +2,9 @@
 ### Package to run rmd files
 ################################################################################
 
+library('tidyverse')
 library('knitr')
 library('rmarkdown')
-library('tidyverse')
 library('bookdown')
 library('ggplot2')
 library('kableExtra')

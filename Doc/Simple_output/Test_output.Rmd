@@ -2,7 +2,9 @@
 title: "A simple report"
 author: "Your name"
 date: "`r format(Sys.time(), '%a %d %b %Y (%H:%M:%S)')`"
-output: word_document
+output:
+  html_document: default
+  bookdown::word_document2: default
 ---
 
 
@@ -24,6 +26,8 @@ The dataset used in this report is structured as:
 head(df_data, n = 5)
 ```
 
+There are `r dim(df_data)[1]` rows in our dataset. Our data frame is based on the *Hecate Strait Synoptic Trawl Survey* and **simulated data**. 
+
 # Plot data
 ## Scatter plot: Depth and Biomass
 ```{r sp_base, eval = TRUE}
@@ -32,7 +36,7 @@ sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
 print(sp)
 ```
 
-The R code used to plot the data is:
+To print the R code used to plot the data without running it use eval = FALSE in the chunk option:
 
 ```{r sp_base_no_eval, eval = FALSE}
 sp <- ggplot(data=df_data, aes(x=Avg_net_depth, y=Biomass)) +
@@ -55,4 +59,24 @@ sp_color <- ggplot(df_data, aes(x=Avg_net_depth, y=Biomass,
   geom_point(size=1)
 print(sp_color)
 ```
+
+# Math equation
+We can use the LaTeX syntax to write math equations:
+
+$$ Y \sim LogNormal(\mu, \sigma) $$
+
+or for multiple equations :
+
+\begin{align}
+Y & \sim LogNormal(\mu, \sigma) \\ 
+\mu &  = \alpha + \beta * \text{Depth} + \gamma * \text{Temperature} \\
+\sigma &  \sim Uniform(0,10)
+\end{align}
+
+more detail can be found here :
+<https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques>
+or 
+<https://rpi.edu/dept/arc/training/latex/LaTeX_symbols.pdf>
+
+
 
